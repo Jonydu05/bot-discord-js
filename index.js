@@ -33,11 +33,4 @@ client.status({
   type: 'CUSTOM',
 });
 
-client.status({
-  name: 'Example Text!',
-  type: 'PLAYING',
-  status: 'dnd',
-  time: 120,
-});
-
 client.loadCommands('./commands');
