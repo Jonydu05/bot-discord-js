@@ -15,12 +15,10 @@ module.exports = [
   {
     name: 'avatar',
     code: `
-    $author[Foto de perfil do $username!]
-    $color[Random]
-    $image[$authorAvatar]
-    $footer[Solicitado por $username]
-    $addTimestamp
-    `,
+$author[$userTag[$mentioned[1;yes]];$userAvatar[$mentioned[1;yes]]]
+$image[$userAvatar[$mentioned[1;yes]]]
+$color[Random]
+`,
   },
   {
     name: 'exampleID',
